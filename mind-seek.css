@@ -1,0 +1,212 @@
+body{
+    background-color:#FFF1F2;
+}
+.navbar{
+    background: #FFF8F2;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+}
+.navbar-text{
+    color:#2D3370
+}
+
+.navbar-text:hover{
+    background-color:#f4c3c6;
+}
+
+p{
+    font-family: 'Work Sans';
+}
+
+h4{
+    font-family: 'Work Sans';
+    font-weight:700;
+}
+
+h5{
+    font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3{
+    font-family:'Playfair Display';
+    font-style:italic;
+}
+
+.seeker-heading{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 100px!important;
+}
+
+#seekers-3{
+    transform: translate(40px,20px);
+}
+
+.container-headings{
+    width:95%;
+    margin:auto
+}
+
+.mountain-body-text{
+    font-size:larger
+}
+.initiatives-heading{
+    color:beige
+}
+
+.collapsible-header{
+    background:#764D3B;
+    font-family:'Work Sans';
+    font-weight:500;
+    color: white;
+}
+
+.collapsible-body{
+    background:#C6A89B;
+    font-family: 'Work Sans';
+    font-weight:200;
+    color:#764D3B;
+}
+
+#collapsible-body-faq{
+    background:#C6A89B;
+    font-family: 'Work Sans';
+    font-weight:200;
+    color:#e8e0dd!important;
+}
+
+#collapsible-body-faq{
+    background:#52589b;
+}
+
+#collapsible-header-faq{
+    background:#2D3370;
+}
+
+#mobile-demo{
+    font-family: 'Playfair Display';
+    background-color:#764D3B;
+    color:white
+}
+
+
+
+.slider{
+    height:fit-content
+}
+
+.btn{
+    position:absolute;
+    top: 70%;
+    left: 4%;
+    background-color: #2D3370;
+    color:white;
+    cursor:pointer;
+    transition: duration 0.4s;
+}
+
+.btn:hover{
+    background-color: #52589b;
+    color:white;
+}
+
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%
+}
+
+.logo-size{
+    width:auto;
+    height:65px;
+}
+
+.responsive{
+    width:500px;
+    height:250px;
+}
+.card-image{
+    width:auto;
+    height:auto;
+}
+
+.fa-bars{
+    color:#2D3370
+}
+
+.parallax{
+    height: auto;
+}
+
+.section-about{
+    background:#FFF8F2;
+}
+.section-initiatives{
+    background-color:#2D3370;
+    background-image:url("img/blue.png")
+}
+.section-seeker{
+    background-color: #E6B379;
+    color: #41261a !important;
+}
+.section-join{
+    background-image:url("img/brown.png")
+}
+
+.card-mission{
+    background-color: #2D3370;
+    background-image: url("img/blue.png");
+}
+.card-vision{
+    background-color: #764D3B;
+    background-image:url("img/brown.png");
+}
+.card-core-values{
+    background-color: #E6B379;
+    background-image: url("img/yellow.png") ;
+}
+
+.slider.indicators.indicators-item.active{
+    background:#E6B379
+}
+.page-footer{
+    background-color:#FFF8F2;
+}
+
+.navbar-contact-us{
+    background-color:#2D3370;
+}
+.navbar-text-contact-us{
+    color:#FFF8F2;
+}
+
+#active-tab{
+    background-color:#764D3B;
+    color: #FFF8F2;
+}
+#hamburger-white{
+    color: #FFF1E1;
+}
+
+#faq-bg{
+    background-image: url("img/faqs-bg.png");
+}
+
+#community-bg-yellow{
+    background-image: url("img/yellow.png");
+}
+
+footer{
+    background-color:#2D3370;
+    background-image:url("img/blue.png")
+}
+
+#here-link{
+    color: #764D3B;
+    text-decoration: underline;
+    font-weight:800;
+}
+
+.animate__animated.animate__fadeIn{
+    --animate-duration:4s;
+}

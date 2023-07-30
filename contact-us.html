@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/0597e1798a.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="mind-seek.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Animate CSS-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Contact Us</title>
+    
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-contact-us">
+        <div class="nav-wrapper">
+            <div class="row">
+                <a href="index.html" class="brand-logo">
+                    <img class="logo-size"src="img/mind-seek-logo-2.png" alt="">
+                </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger" >
+                <i class="fa-solid fa-bars"id="hamburger-white"></i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" class="navbar-text-contact-us">Home</a></li>
+                <li><a href="community.html" class="navbar-text-contact-us">Join the Community</a></li>
+                <li><a href="faq.html" class="white-text">FAQs</a></li>
+                <li><a href="contact-us.html" class="navbar-text-contact-us">Contact Us</a></li>
+            </ul>
+                </div>
+        <!--Sidenav Structure-->
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a class="white-text"href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="white-text"href="community.html">Join the Community</a>
+                </li>
+                <li>
+                    <a class="white-text" href="faq.html">FAQs</a>
+                </li>
+                <li>
+                    <a class="white-text"href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+<!--Section-->
+<div class="section">
+    <div class="container container-headings">
+        <div class="row center">
+            <div class="col s12 m12 l5">
+                <br><br><br>
+                <h1>Contact Us</h1>
+                <p>If you have any questions for us or would like to stay connected, feel free to refer to our communication channels below.</p>
+                <div class="row">
+                    <div class="col s3">
+                        <a href="https://www.instagram.com/mindxseek/">
+                            <img src="img/instagram.png"id="socials">
+                        </a>
+                    </div>
+                    <div class="col s3">
+                        <a href="https://www.facebook.com/mindxseek/">
+                            <img src="img/facebook.png"id="socials">
+                        </a>
+                    </div>
+                    <div class="col s3"id="socials">
+                        <a href="mindxseek@gmail.com">
+                            <img src="img/email.png">
+                        </a>
+                    </div>
+                    <div class="col s3"id="socials">
+                        <a href="https://www.facebook.com/messages/t/105095761273079">
+                            <img src="img/messenger.png">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col s12 m12 l7">
+                <img src="img/lighthouse.png" class="animate__animated animate__fadeInUp "alt="" id="lighthouse">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<!--jQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!--Initializations-->
+<script>
+$(document).ready(function(){
+    //parallax
+    $('.parallax').parallax();
+    //tabs
+    $('.tabs').tabs();
+    //sidenav
+    $('.sidenav').sidenav();
+    //slider
+    $('.slider').slider();
+        $('.indicators').hide();
+    //collapsible
+    $('.collapsible').collapsible();
+}); 
+</script>

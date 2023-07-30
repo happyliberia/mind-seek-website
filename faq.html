@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome CDNJS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/0597e1798a.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="mind-seek.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>FAQs</title>
+</head>
+<body id="faq-bg">
+    <header>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-contact-us">
+        <div class="nav-wrapper">
+            <div class="row">
+                <a href="index.html" class="brand-logo">
+                    <img class="logo-size"src="img/mind-seek-logo-2" alt="">
+                </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="fa-solid fa-bars"id="hamburger-white"></i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" class="navbar-text-contact-us">Home</a></li>
+                <li><a href="community.html" class="navbar-text-contact-us">Join the Community</a></li>
+                <li><a href="faq.html" class="white-text">FAQs</a></li>
+                <li><a href="contact-us.html" class="navbar-text-contact-us">Contact Us</a></li>
+            </ul>
+                </div>
+        <!--Sidenav Structure-->
+            <ul class="sidenav" id="mobile-demo">
+                <li>
+                    <a class="white-text"href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="white-text"href="community.html">Join the Community</a>
+                </li>
+                <li>
+                    <a class="white-text" href="">FAQs</a>
+                </li>
+                <li>
+                    <a class="white-text"href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+<!--Section Header-->
+<div class="section">
+        <!--Collapsible-->
+        <div class="row">
+            <div class="col s12 m10 l8">
+                <div class="container container-headings">
+                    <h2 class="white-text">Frequently Asked Questions</h2>
+                    <br>
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"id="collapsible-header-faq">Who can become a Seeker?</div>
+                            <div class="collapsible-body"id="collapsible-body-faq"><span>Any highschooler passionate about our mission and vision is welcome to become a Seeker! To join, check out our Join the Community tab to learn more.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header" id="collapsible-header-faq">How can I volunteer?</div>
+                            <div class="collapsible-body"id="collapsible-body-faq"><span>To be aware of volunteering opportunities, sign up to be a Seeker today and stay tuned through our socials and FB group. If you have any questions, feel free to contact Timothy de Belen, our HR director, on Messenger.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"id="collapsible-header-faq">What are your upcoming initiatives, events, and campaigns?</div>
+                            <div class="collapsible-body"id="collapsible-body-faq"><span>Glad you asked! To be more updated about our upcoming initiatives, check out our socials on Facebook and Instagram through our Contact Us page. </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"id="collapsible-header-faq">Does Mind & Seek provide mental health services?</div>
+                            <div class="collapsible-body"id="collapsible-body-faq"><span>Unfortunately, because we are a student-organization and are not licensed professionals, Mind & Seek does not provide formal mental health services such as talk therapy, medication, diagnosis, and etc. However, we do educate the youth by promoting healthy coping mechanisms, seminars, and connecting them with professionals who can better address their issues. For more information about this, feel free to send us an email at mindxseek.org@gmail.com</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+</body>
+
+
+
+<!--jQuery CDN-->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!--Initializations-->
+<script>
+$(document).ready(function(){
+    //parallax
+    $('.parallax').parallax();
+    //tabs
+    $('.tabs').tabs();
+    //sidenav
+    $('.sidenav').sidenav();
+    //slider
+    $('.slider').slider();
+        $('.indicators').hide();
+    //collapsible
+    $('.collapsible').collapsible();
+}); 
+</script>
+</html>
